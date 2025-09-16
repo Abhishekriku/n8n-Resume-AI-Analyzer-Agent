@@ -19,7 +19,7 @@ This agent automates resume screening by:
 
 ---
 
-### ⚙️ Stack
+### Stack
 - **n8n** (automation platform)
 - **OpenAI Chat Model** (AI-based resume parsing & scoring)
 - **Google Drive / Gmail** (resume source)
@@ -27,7 +27,7 @@ This agent automates resume screening by:
 
 ---
 
-### 🚀 How to Run (Demo)
+### How to Run (Demo)
 1. Import `workflow.json` into n8n (this export is sanitized; no credentials included).
 2. Configure credentials: Gmail/Google Drive + OpenAI + Google Sheets.
 3. Upload or forward resumes into the Gmail/Drive folder.
@@ -35,7 +35,7 @@ This agent automates resume screening by:
 
 ---
 
-### 📂 Repo Structure
+### Repo Structure
 ```
 /  
 ├── README.md              # Documentation  
@@ -46,13 +46,13 @@ This agent automates resume screening by:
 
 ---
 
-### 🖼️ Screenshots
+### Screenshots
 - Workflow diagram (n8n nodes: Gmail → Drive → Extract → OpenAI → Sheets)
 - Example parsed resume data in Google Sheets
 
 ---
 
-### 🔒 Notes on Credentials & Safety
+### Notes on Credentials & Safety
 - This repo does **not** include any API keys or credentials.
 - Configure OpenAI/Gmail/Drive/Sheets inside your own n8n instance.
 - Replace placeholder sheet IDs and folder paths with your own.
