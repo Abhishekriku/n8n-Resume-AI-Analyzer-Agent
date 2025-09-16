@@ -47,8 +47,7 @@ This agent automates resume screening by:
 ---
 
 ### Screenshots
-- Workflow diagram (n8n nodes: Gmail → Drive → Extract → OpenAI → Sheets)
-- Example parsed resume data in Google Sheets
+![Workflow](screenshots/flow-overview.png)
 
 ---
 
