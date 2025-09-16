@@ -47,7 +47,7 @@ This agent automates resume screening by:
 ---
 
 ### Screenshots
-![Workflow](screenshots/flow-overview.png)
+![Workflow](screenshots/Resume-Analyser.png)
 
 ---
 
